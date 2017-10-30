@@ -67,6 +67,10 @@ body {
   .projectDescription, #nav {
       margin-top: 10px;
   }
+  .projectDescriptionHeader {
+      margin-top: 10px;
+      font-weight: bolder;
+  }
 
   hr {
       border-top: 2px solid #0000CC;
