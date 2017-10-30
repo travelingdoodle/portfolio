@@ -106,3 +106,7 @@ body {
       /* text-decoration-color: #0000CC;
       -moz-text-decoration-color: #0000CC; */
   }
+
+  #aboutMe {
+      margin-top: 25px;
+  }
