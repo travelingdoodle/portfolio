@@ -89,3 +89,20 @@ body {
       height: 80px;
       width: 80px;
   }
+
+  .social {
+      width: 45px;
+      border: 0;
+  }
+
+  #socialRow {
+      margin: auto;
+      text-align: center;
+  }
+
+  #skillsTitle {
+      /* border-bottom-color: 1px solid #0000CC; */
+      text-decoration: underline;
+      /* text-decoration-color: #0000CC;
+      -moz-text-decoration-color: #0000CC; */
+  }
