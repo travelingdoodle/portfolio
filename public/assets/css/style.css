@@ -74,11 +74,18 @@ body {
   }
 
   a:hover {
-      background: #808080;
+      /* background: #808080; */
       /* color: #DC143C; */
-      color: orange;
+      color: #0000FF;
       text-decoration:  none;
+      text-shadow: 1px 1px #0000FF;
   }
   a {
       color: #0000CC;
+  }
+
+  .skillsIcons, .icons{
+      margin: 20px auto 0;
+      height: 80px;
+      width: 80px;
   }
