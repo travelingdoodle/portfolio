@@ -49,11 +49,11 @@ body {
       /* color: orange; */
       text-align: center;
   }
+
   .projectHeader {
       text-align: center;
       color: #0000CC;
-      border-bottom: 1px solid #0000CC;
-      
+      border-bottom: 2px solid #0000CC;  
   }
 
   #projectRow {
@@ -62,4 +62,23 @@ body {
   .projectImg {
       width: 100%;
       height: 200px;
+  }
+
+  .projectDescription, #nav {
+      margin-top: 10px;
+  }
+
+  hr {
+      border-top: 2px solid #0000CC;
+      text-decoration: underline;
+  }
+
+  a:hover {
+      background: #808080;
+      /* color: #DC143C; */
+      color: orange;
+      text-decoration:  none;
+  }
+  a {
+      color: #0000CC;
   }
