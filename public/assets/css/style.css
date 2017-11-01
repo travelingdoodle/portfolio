@@ -118,6 +118,6 @@ body {
       font-family: monospace;
   }
 
-  .projectDescription, .projectDescriptionHeader, .monospace, #skillsTitle, #comment {
+  .monospace{
       font-family: monospace;
   }
