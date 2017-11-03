@@ -35,19 +35,24 @@ body, html {
   }
 
   /* custom styles */
-
-  #about, #projects, #skills {
-      border-right: .15em solid #0000CC;
-      /* position: relative;
-      text-align: center; */
+.mx-auto {
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+.navbar .navbar-nav{
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: center!important;
+    font-size: 2em;
   }
-
-  #nav {
-      text-align: center;
+.navbar .navbar-collapse {
+    text-align: center!important;
   }
 
   #comment{
       /* color: orange; */
+
       text-align: center;
   }
 
