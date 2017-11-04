@@ -45,10 +45,13 @@ body, html {
     vertical-align: top;
     text-align: center!important;
     font-size: 2em;
+    background: #BEBEBE;
   }
 .navbar .navbar-collapse {
     text-align: center!important;
+    background: #BEBEBE;
   }
+ 
 
   #comment{
       /* color: orange; */

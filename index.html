@@ -8,10 +8,13 @@
     <!-- Bootstrap CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
         crossorigin="anonymous">
+  
     <!-- local css stylesheet -->
     <link href="./public/assets/css/style.css" rel="stylesheet">
     <!-- Favicon Link -->
     <link rel='shortcut icon' type='image/x-icon' href='/favicon.ico' />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 </head>
 
 <body class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -33,15 +36,19 @@
             </div>
         </div>
         <!-- Navigation -->
-        <div class="container mx-auto">
+        <div class="container col-lg-12 text-center container-fluid">
             <!-- <div class="row monospace text-center" id="nav"> -->
-            <nav class="navbar navbar-toggleable-md navbar-light bg-faded monospace">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <nav class="navbar navbar-toggleable-lg navbar-light bg-faded monospace">
+                <button class="navbar-toggler navbar-toggler-right collapse" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navBarCollapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#">Go Places!</a>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
+                <!-- <a class="navbar-brand" href="#">Go Places!</a> -->
+                <div class="collapse navbar-collapse" id="navbarTarget">
+                    <div class="nav navbar-nav">
                         <a class="nav-item nav-link active" href="#">About</a>
                         <a class="nav-item nav-link" href="#">Projects</a>
                         <a class="nav-item nav-link" href="#">Skills</a>
@@ -71,7 +78,7 @@
                     <a href="https://enigmatic-depths-66669.herokuapp.com/">Food For Cause</a>
                 </h2>
                 <img class="projectImg" alt="Food For Cause Screenshot" src="./public/assets/images/projectImgs/FFCIndex.png">
-                <p class="projectDescriptionHeader monospace">Tech: Node.js, Express, MySQL, Handlebars.js, Heorku</p>
+                <p class="projectDescriptionHeader monospace">Tech: Node.js, Express, MySQL, Handlebars.js, Heroku</p>
                 <p class="projectDescriptionHeader monospace">
                     <a href="">GitHub</a>
                 </p>
@@ -106,8 +113,8 @@
                     <a href="https://github.com/travelingdoodle/bamazon">GitHub</a>
                 </p>
                 <p class="projectDescription">Amazon-like CLI storefront that presents users with items available for purchase. Customer mode takes purchase
-                    requests, ensures that quantities exist in the MySQL DB, calculates the cost and asks for confirmation.
-                    Managers are able to updated available stock (change existing quantity, add new items, or deplete stock)
+                    requests, ensures that quantities exist in the MySQL DB, calculates the cost, and asks for confirmation.
+                    Managers are able to update available stock (change existing quantity / add new items / or deplete stock)
                     from the store's inventory.</p>
             </div>
         </div>
